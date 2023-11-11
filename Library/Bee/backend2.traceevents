@@ -1,0 +1,276 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1699629995903006, "dur":18847, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699629995921861, "dur":72, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699629995921963, "dur":487, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699629995922475, "dur":2948, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699629995925424, "dur":169204, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699629996094629, "dur":294, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699629996095068, "dur":1520, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1699629995922531, "dur":2900, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699629995925433, "dur":4650, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1699629995958262, "dur":741, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1699629995959007, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1699629995959096, "dur":64, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1699629995959443, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerf80d0049-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1699629995959005, "dur":631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1699629995960214, "dur":129280, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1699629996093412, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1699629996093412, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1699629996093506, "dur":1082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1699629995922577, "dur":2858, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699629995925439, "dur":748, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699629995926188, "dur":3906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699629995930095, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1699629995935946, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1699629995936725, "dur":93, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995936723, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995936875, "dur":5419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995942403, "dur":5653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995948136, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995949606, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995951086, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995952556, "dur":2238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995954829, "dur":406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Acer\\Unity Projects\\Limbo_Beta0.7\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995954828, "dur":408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995955252, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995956774, "dur":237, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Acer\\Unity Projects\\Limbo_Beta0.7\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995956773, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995957029, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995958817, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995960061, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995961795, "dur":1848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995963775, "dur":4194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995968051, "dur":2408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995970541, "dur":1997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995972584, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995975135, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995977655, "dur":4019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1699629995981764, "dur":6498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1699629995988384, "dur":581, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1699629995988972, "dur":4590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1699629995993665, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1699629995996680, "dur":97949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699629995922628, "dur":2820, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699629995925451, "dur":815, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699629995926267, "dur":3830, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1699629995930098, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1699629996029386, "dur":1134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1699629996030554, "dur":64091, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699629995922620, "dur":2823, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699629995925445, "dur":800, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699629995926245, "dur":3865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1699629995930111, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1699629995958038, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1699629995959356, "dur":1607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699629995961030, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699629995962849, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699629995964542, "dur":3626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699629995968249, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699629995970812, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699629995973062, "dur":2006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699629995975113, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699629995977452, "dur":3686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1699629995981210, "dur":3880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":4, "ts":1699629995985652, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1699629995988976, "dur":5801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1699629995994893, "dur":99754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699629995922675, "dur":2778, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699629995925455, "dur":770, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699629995926225, "dur":3875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1699629995930116, "dur":222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1699629995930103, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1699629995970377, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1699629995971469, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699629995973999, "dur":2265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699629995976333, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699629995981061, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699629995981058, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699629995981190, "dur":45405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1699629996026647, "dur":67993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699629995922712, "dur":2745, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699629995925459, "dur":842, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699629995926301, "dur":3805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1699629995930109, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1699629995991732, "dur":2580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1699629995994446, "dur":100196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699629995922751, "dur":2711, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699629995925464, "dur":784, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699629995926248, "dur":3856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1699629995930121, "dur":252, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1699629995930105, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1699629996034192, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1699629996035310, "dur":59320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699629995922794, "dur":2673, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699629995925469, "dur":819, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699629995926288, "dur":3814, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1699629995930104, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1699629996008254, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1699629996009764, "dur":84872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699629995922830, "dur":2645, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699629995925479, "dur":648, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699629995926127, "dur":3969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1699629995930108, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1699629995930097, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1699629995950764, "dur":1566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1699629995952410, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995954412, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Acer\\Unity Projects\\Limbo_Beta0.7\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995954411, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995954498, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995955680, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Acer\\Unity Projects\\Limbo_Beta0.7\\Library\\Bee\\PlayerScriptAssemblies\\com.hauntedpsx.render-pipelines.psx.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995955678, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/com.hauntedpsx.render-pipelines.psx.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995955891, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/com.hauntedpsx.render-pipelines.psx.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995957255, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Acer\\Unity Projects\\Limbo_Beta0.7\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995957254, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995957339, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995959166, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995960880, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995962607, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995964394, "dur":3364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995967828, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995969793, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995972214, "dur":2655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995974948, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995977281, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995980131, "dur":4475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1699629995984742, "dur":3676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":9, "ts":1699629995988586, "dur":3936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/level1.resS" }}
+,{ "pid":12345, "tid":9, "ts":1699629995992660, "dur":14490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1699629996007231, "dur":87403, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699629995922858, "dur":2630, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699629995925489, "dur":4603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1699629995930109, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":10, "ts":1699629995930093, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1699629995943197, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1699629995944533, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995946352, "dur":1272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995947684, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995949799, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995952400, "dur":1824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995954279, "dur":379, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Acer\\Unity Projects\\Limbo_Beta0.7\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995954278, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995954670, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995956303, "dur":503, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Acer\\Unity Projects\\Limbo_Beta0.7\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995956301, "dur":506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995956829, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995958570, "dur":1273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995959964, "dur":1801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995961833, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995963673, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995965670, "dur":2724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995968474, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995971256, "dur":2434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995973741, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995975877, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995978508, "dur":4892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1699629995983531, "dur":4798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1699629995988469, "dur":4135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1699629995992720, "dur":3805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":10, "ts":1699629995996656, "dur":97968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699629995922884, "dur":2612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699629995925496, "dur":4593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1699629995930092, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1699629995931470, "dur":1131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":11, "ts":1699629995932636, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1699629995932634, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1699629995932990, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1699629995934041, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1699629995934161, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1699629995935952, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995935949, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995936260, "dur":993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995937287, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1699629995937800, "dur":3954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1699629995942026, "dur":5078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995947160, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995948697, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995949877, "dur":4107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995954062, "dur":1196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995955307, "dur":405, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Acer\\Unity Projects\\Limbo_Beta0.7\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995955306, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995955730, "dur":1815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995957603, "dur":1939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995959605, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995961378, "dur":1895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995963344, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995965020, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995968278, "dur":2526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995970897, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995973380, "dur":2192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995975640, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995978328, "dur":4433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1699629995982907, "dur":25325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":11, "ts":1699629996008306, "dur":86329, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699629995922906, "dur":2594, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699629995925501, "dur":4587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1699629995930112, "dur":245, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1699629995930092, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1699629996016125, "dur":1249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":12, "ts":1699629996017420, "dur":77235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699629995922928, "dur":2580, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699629995925508, "dur":4583, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1699629995930092, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1699629995976496, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1699629995978190, "dur":3963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1699629995982237, "dur":17086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1699629995999395, "dur":95243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699629995922957, "dur":2559, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699629995925516, "dur":4568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699629995930105, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1699629995930970, "dur":1711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/app.info" }}
+,{ "pid":12345, "tid":14, "ts":1699629995932682, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1699629995932997, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1699629995933994, "dur":77, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1699629995933993, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1699629995934155, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1699629995935906, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1699629995936165, "dur":681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1699629995936881, "dur":359, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":14, "ts":1699629995936880, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo.exe" }}
+,{ "pid":12345, "tid":14, "ts":1699629995937249, "dur":1189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo.exe" }}
+,{ "pid":12345, "tid":14, "ts":1699629995938658, "dur":7714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995946451, "dur":1629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995948140, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995949589, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995951203, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995954138, "dur":1228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995955422, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Acer\\Unity Projects\\Limbo_Beta0.7\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995955421, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995955512, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995956726, "dur":314, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Acer\\Unity Projects\\Limbo_Beta0.7\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995956725, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995957054, "dur":1892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995959024, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995960799, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995962430, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995964004, "dur":2239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995966321, "dur":2748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995969122, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995971912, "dur":2543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995974524, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995976821, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995979305, "dur":4459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1699629995983899, "dur":3707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1699629995987767, "dur":1906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/resources.resource" }}
+,{ "pid":12345, "tid":14, "ts":1699629995989779, "dur":4853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/level0.resS" }}
+,{ "pid":12345, "tid":14, "ts":1699629995994757, "dur":99868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699629995922977, "dur":2545, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699629995925523, "dur":4575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1699629995930101, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1699629995964716, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1699629995965915, "dur":2810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699629995968766, "dur":2732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699629995971564, "dur":2725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699629995974357, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699629995976492, "dur":2336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699629995978895, "dur":4455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1699629995983461, "dur":6273, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1699629995989830, "dur":4788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/Purgatoryo_Data/level0" }}
+,{ "pid":12345, "tid":15, "ts":1699629995994711, "dur":99921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699629995923002, "dur":2527, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699629995925530, "dur":4556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1699629995930137, "dur":229, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.2f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1699629995930091, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Acer/Unity Builds/Purgatoryo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1699629996022262, "dur":3107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Acer/Unity Builds/Purgatoryo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1699629996025432, "dur":69216, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1699629996099118, "dur":890, "ph":"X", "name": "ProfilerWriteOutput" }
+,
